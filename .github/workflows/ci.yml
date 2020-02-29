@@ -14,4 +14,4 @@ jobs:
       - run: |
           gem install bundler
           bundle install --jobs 4 --retry 3
-          exe/zestimate '4567 Hampshire Pl, San Jose, CA 95136'
+          bundle exec ruby -Ilib exe/zestimate '4567 Hampshire Pl, San Jose, CA 95136'
