@@ -1,8 +1,0 @@
-on: push
-
-steps:
-  - uses: actions/checkout@v2
-  - uses: actions/setup-ruby@v1
-    with:
-      ruby-version: '2.6'
-  - run: exe/zestimate '4567 Hampshire Pl, San Jose, CA 95136'
