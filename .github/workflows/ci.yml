@@ -12,6 +12,6 @@ jobs:
         with:
           ruby-version: '2.6'
       - run: |
-        gem install bundler
-        bundle install --jobs 4 --retry 3
-        exe/zestimate '4567 Hampshire Pl, San Jose, CA 95136'
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+          exe/zestimate '4567 Hampshire Pl, San Jose, CA 95136'
